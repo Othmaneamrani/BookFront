@@ -3,7 +3,7 @@ export default function Fbook(){
     return(
         <div>
             <div className="container">
-		<div className="book">
+		<div className="book" >
 			<div className="front">
 				<div className="cover">
 					<p className="num-up">84</p>	
