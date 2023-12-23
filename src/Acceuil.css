@@ -1,0 +1,230 @@
+.acceuil{
+  margin: 6em;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.acc-left{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6em;
+}
+.books{
+  width: 35em;
+}
+.best{
+  color: #FB8500;
+  font-size: 20px;
+}
+.goto{
+  display: flex;
+}
+.enter-container {
+  position: relative;
+  display: inline-block;
+}
+
+.enter-input {
+  display: block;
+  margin-top: 3em;
+  width: 300px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  background-color: inherit;
+  border: 1.5px solid;
+  border-color: black;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 75%;
+  left: 85%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ccc;
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  line-height: 30px;
+
+}
+.go{
+  margin-bottom: 0;
+  margin-top: 3em;
+  margin-left: 1em;
+  font-weight: bolder;
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+  color: #FB8500;
+
+}
+.go:hover , .arrow-icon:hover{
+  cursor: pointer;
+}
+.parag{
+ width: 500px; 
+ margin-top: 5em;
+}
+.par{
+  font-weight: bolder;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+.team{
+  color: #FB8500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.book{
+  margin-right: 4em;
+  margin-top: 5.5em;
+  width: 900px;
+  margin-left: 2em;
+
+}
+.no-img{
+  display: none;
+}
+@media (max-width: 1600px) {
+
+  .book{
+    margin-right: 4em;
+    width: 700px;
+    margin-left: 2em;
+  }
+  .acceuil{
+    margin-right:0 ;
+  }
+  .books{
+    width: 500px;
+  }
+}
+@media (max-width: 1400px) {
+  .book{
+    width: 600px;
+    height: 500px;
+    margin-left: 1em;
+    margin-top: 6em;
+  }
+  .acc-left{
+    margin-top: 3em;
+  }
+}
+@media (max-width: 1350px) {
+  .book{
+    width: 600px;
+    height: 450px;
+  }
+  .books{
+    width: 400px;
+  }
+  .parag{
+    width: 450px; 
+    margin-top: 3em;
+   }
+  .acceuil{
+    margin-left: 4em;
+  }
+}
+@media (max-width: 1200px) {
+  .book{
+    margin-right: 2em;
+  }
+  .acceuil{
+    margin-left: 2em;
+  }
+}
+@media (max-width: 1150px) {
+  .book{
+    width: 520px;
+    height: 400px;
+  }
+  .books{
+    width: 370px;
+  }
+  .parag{
+    width: 350px;
+    margin-top: 1em;
+  }
+  .par{
+    font-size: 15px;
+  }
+}
+@media (max-width: 1050px) {
+  .acceuil{
+    flex-direction: column;
+    gap: 1em;
+  }
+  .acc-left{
+    align-self: center;
+  }
+  .books{
+    width: 600px;
+    margin-bottom: 2em;
+  }
+  .goto{
+    align-self:center;
+  }
+  .parag{
+    display: none;
+  }
+  .book{
+    display: none;
+  }
+  .no-img{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
+  .go{
+    text-decoration: underline;
+  }
+  .acc-left{
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  .books{
+    width: 500px;
+  }
+  .acceuil{
+    margin: 0;
+  }
+  .acc-left{
+    align-items: center;
+  }
+
+}
+@media (max-width: 600px) {
+  .books{
+    width: 400px;
+  }
+  .acc-left{
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .books{
+    width: 350px;
+  }
+  .hh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
